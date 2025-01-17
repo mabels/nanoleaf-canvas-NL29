@@ -17,7 +17,7 @@ First Cut:
 
 Cut it open -- I started with dremeling the inner square in the middle of the backside.
 I cut from the side --- and the plastic i very strong.
-But to cut it out does not make sense. Yes, the main PCB the green one, gets accessible. 
+But to cut it out does not make sense. Yes, the main PCB the green one, gets accessible.
 You could easily cut into the PCB i got lucky and only hit the ram chip slightly, and don't destroy
 it. You don't need to do it the first time.
 
@@ -27,13 +27,18 @@ The second cut is around all corners around 5mm in. That allows you to the PCB. 
 you could cut into the PCB and more easily on the 4 led leaf’s(see pictures). To get it disassembled you
 need screwdrivers and knives and a lot of patience. But you will be able to get into it.
 
+The PCB:
+
+![alt text](https://github.com/mabels/nanoleaf-canvas-NL29/blob/main/pcb-to-frontside.jpg?raw=true)
+![alt text](https://github.com/mabels/nanoleaf-canvas-NL29/blob/main/pcb-to-backside.jpg?raw=true)
+
 Recovery
 
 I found out. If I supply the hole PCB with the 42Volt, the central CPU starts and resets in the boot
-phase. But If I only supply 3.3V behind(green wire) the 3.3Volt regulator the CPU starts without any problem 
+phase. But If I only supply 3.3V behind(green wire) the 3.3Volt regulator the CPU starts without any problem
 and runs stable for days. If you want to connect the panels, only connect the GND and Signal lane
 from any edge. The slider with the 3 pins uses the slightly longer pin is GND and on the other outer side,
-that's signal. Solder two cables on it and connect it to one of the edge connectors, on some, there is 
+that's signal. Solder two cables on it and connect it to one of the edge connectors, on some, there is
 also some text on the PCB needed to the connector.
 
 Todo:
@@ -41,7 +46,7 @@ Todo:
 3d print a new housing and add a step-down converter from 42V to 3.3V. The touch sensors should work also,
 there are texts on the PCB, and if you touch the PCB, something happens.
 
- 
+
 Wishes:
 
 Find the root cause – I tried to understand the PCB design but didn’t understand it completely.
